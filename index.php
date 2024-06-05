@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Work 2 610-11</title>
+    <title>PHP Work-2 610-11</title>
 </head>
 <body>
     <h1>
@@ -16,11 +16,11 @@
 
     <ul>
         <?php
-            $string = ["Apache", "PHP", "MariaDB"];
+            $txt = ["Apache", "PHP", "MariaDB"];
 
-            echo "<li>$string[0]</li>";
-            echo "<li>$string[1]</li>";
-            echo "<li>$string[2]</li>";
+            echo "<li>$txt[0]</li>";
+            echo "<li>$txt[1]</li>";
+            echo "<li>$txt[2]</li>";
 
         ?>
     </ul>
